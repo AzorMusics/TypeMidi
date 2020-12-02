@@ -35,9 +35,11 @@ Q: Why did you start making TypeMidi?
 
 A: I started the Project TypeMidi with its predecessor with https://github.com/azormusics/logimidi. this was just a proof of concept that you actually could display Midi Values on a RGB Keyboard. 
 
+
 Q: Why do i need LoopMidi for it?
 
 A: LoopMidi gives Windows Users the ability to make virtual Midi Devices. In this case we need a virtual Midi Device to communicate between a DAW and TypeMidi.
+
 
 Q: Can you make it work on a Mac and Linux too?
 
