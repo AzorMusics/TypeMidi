@@ -19,106 +19,84 @@ namespace TypeMidi
 
         public static ChromaSDK.Keyboard.RZKEY[] chromaKeys =
         {
-            ChromaSDK.Keyboard.RZKEY.RZKEY_ESC,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F1,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F2,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F3,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F4,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F5,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F6,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F7,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F8,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F9,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F10,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F11,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F12,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_PRINTSCREEN,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_SCROLL,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_PAUSE,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_1,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_MACRO1,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_1,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_1,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_2,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_3,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_4,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_5,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_6,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_7,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_8,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_9,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_0,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_2,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_3,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_BACKSPACE,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_INSERT,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_HOME,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_PAGEUP,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMLOCK,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_DIVIDE,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_MULTIPLY,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_SUBTRACT,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_MACRO2,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_TAB,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_Q,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_W,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_E,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_R,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_T,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_Y,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_U,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_I,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_O,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_P,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_4,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_5,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_6,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_DELETE,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_END,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_PAGEDOWN,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD7,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD8,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD9,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_ADD,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_MACRO3,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_CAPSLOCK,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_A,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_S,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_D,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_F,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_G,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_H,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_J,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_K,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_L,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_7,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_8,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_EUR_1,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_ENTER,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD4,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD5,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD6,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD7,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD8,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD9,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_DIVIDE,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_MULTIPLY,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_SUBTRACT,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_ADD,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_ENTER,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_DECIMAL,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_PRINTSCREEN,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_SCROLL,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_PAUSE,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_INSERT,
-            ChromaSDK.Keyboard.RZKEY.RZKEY_HOME,                /*!< Home (VK_HOME) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_ESC,                 /*!< Esc (VK_ESCAPE) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F1,                  /*!< F1 (VK_F1) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F2,                  /*!< F2 (VK_F2) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F3,                  /*!< F3 (VK_F3) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F4,                  /*!< F4 (VK_F4) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F5,                  /*!< F5 (VK_F5) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F6,                  /*!< F6 (VK_F6) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F7,                  /*!< F7 (VK_F7) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F8,                  /*!< F8 (VK_F8) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F9,                  /*!< F9 (VK_F9) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F10,                 /*!< F10 (VK_F10) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F11,                 /*!< F11 (VK_F11) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F12,                 /*!< F12 (VK_F12) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_1,                   /*!< 1 (VK_1) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_2,                   /*!< 2 (VK_2) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_3,                   /*!< 3 (VK_3) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_4,                   /*!< 4 (VK_4) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_5,                   /*!< 5 (VK_5) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_6,                   /*!< 6 (VK_6) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_7,                   /*!< 7 (VK_7) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_8,                   /*!< 8 (VK_8) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_9,                   /*!< 9 (VK_9) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_0,                   /*!< 0 (VK_0) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_A,                   /*!< A (VK_A) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_B,                   /*!< B (VK_B) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_C,                   /*!< C (VK_C) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_D,                   /*!< D (VK_D) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_E,                   /*!< E (VK_E) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_F,                   /*!< F (VK_F) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_G,                   /*!< G (VK_G) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_H,                   /*!< H (VK_H) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_I,                   /*!< I (VK_I) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_J,                   /*!< J (VK_J) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_K,                   /*!< K (VK_K) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_L,                   /*!< L (VK_L) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_M,                   /*!< M (VK_M) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_N,                   /*!< N (VK_N) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_O,                   /*!< O (VK_O) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_P,                   /*!< P (VK_P) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_Q,                   /*!< Q (VK_Q) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_R,                   /*!< R (VK_R) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_S,                   /*!< S (VK_S) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_T,                   /*!< T (VK_T) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_U,                   /*!< U (VK_U) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_V,                   /*!< V (VK_V) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_W,                   /*!< W (VK_W) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_X,                   /*!< X (VK_X) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_Y,                   /*!< Y (VK_Y) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_Z,                   /*!< Z (VK_Z) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMLOCK,             /*!< Numlock (VK_NUMLOCK) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD0,             /*!< Numpad 0 (VK_NUMPAD0) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD1,             /*!< Numpad 1 (VK_NUMPAD1) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD2,             /*!< Numpad 2 (VK_NUMPAD2) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD3,             /*!< Numpad 3 (VK_NUMPAD3) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD4,             /*!< Numpad 4 (VK_NUMPAD4) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD5,             /*!< Numpad 5 (VK_NUMPAD5) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD6,             /*!< Numpad 6 (VK_NUMPAD6) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD7,             /*!< Numpad 7 (VK_NUMPAD7) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD8,             /*!< Numpad 8 (VK_NUMPAD8) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD9,             /*!< Numpad 9 (VK_ NUMPAD9*/
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_DIVIDE,       /*!< Divide (VK_DIVIDE) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_MULTIPLY,     /*!< Multiply (VK_MULTIPLY) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_SUBTRACT,     /*!< Subtract (VK_SUBTRACT) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_ADD,          /*!< Add (VK_ADD) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_ENTER,        /*!< Enter (VK_RETURN - Extended) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_NUMPAD_DECIMAL,      /*!< Decimal (VK_DECIMAL) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_PRINTSCREEN,         /*!< Print Screen (VK_PRINT) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_SCROLL,              /*!< Scroll Lock (VK_SCROLL) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_PAUSE,               /*!< Pause (VK_PAUSE) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_INSERT,              /*!< Insert (VK_INSERT) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_HOME,                /*!< Home (VK_HOME) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_PAGEUP,              /*!< Page Up (VK_PRIOR) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_DELETE,              /*!< Delete (VK_DELETE) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_END,                 /*!< End (VK_END) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_PAGEDOWN,            /*!< Page Down (VK_NEXT) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_UP,                  /*!< Up (VK_UP) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_LEFT,                /*!< Left (VK_LEFT) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_DOWN,                /*!< Down (VK_DOWN) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_DOWN ,                /*!< Down (VK_DOWN) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_RIGHT,               /*!< Right (VK_RIGHT) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_TAB,                 /*!< Tab (VK_TAB) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_CAPSLOCK,            /*!< Caps Lock(VK_CAPITAL) */
@@ -139,32 +117,32 @@ namespace TypeMidi
 			ChromaSDK.Keyboard.RZKEY.RZKEY_MACRO3,              /*!< Macro Key 3 */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_MACRO4,              /*!< Macro Key 4 */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_MACRO5,              /*!< Macro Key 5 */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_1,               /*!< ~ (tilde/半角/全角) (VK_OEM_3) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_2,               /*!< -- (minus) (VK_OEM_MINUS) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_3,               /*!< = (equal) (VK_OEM_PLUS) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_4,               /*!< [ (left sqaure bracket) (VK_OEM_4) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_5,               /*!< ] (right square bracket) (VK_OEM_6) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_1 ,               /*!< ~ (tilde/半角/全角) (VK_OEM_3) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_2 ,               /*!< -- (minus) (VK_OEM_MINUS) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_3 ,               /*!< = (equal) (VK_OEM_PLUS) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_4 ,               /*!< [ (left sqaure bracket) (VK_OEM_4) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_5 ,               /*!< ] (right square bracket) (VK_OEM_6) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_6,               /*!< \ (backslash) (VK_OEM_5) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_7,               /*!< ; (semi-colon) (VK_OEM_1) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_8,               /*!< ' (apostrophe) (VK_OEM_7) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_9,               /*!< , (comma) (VK_OEM_COMMA) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_10,              /*!< . (period) (VK_OEM_PERIOD) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_OEM_11,              /*!< / (forward slash) (VK_OEM_2) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_EUR_1,               /*!< "#" (VK_OEM_5) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_EUR_2,               /*!< \ (VK_OEM_102) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_JPN_1,               /*!< ¥ (0xFF) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_JPN_2,               /*!< \ (0xC1) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_JPN_3,               /*!< 無変換 (VK_OEM_PA1) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_JPN_4,               /*!< 変換 (0xFF) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_JPN_5,               /*!< ひらがな/カタカナ (0xFF) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_1,               /*!< | (0xFF) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_2,               /*!< (VK_OEM_5) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_EUR_1 ,               /*!< "#" (VK_OEM_5) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_EUR_2 ,               /*!< \ (VK_OEM_102) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_JPN_1 ,               /*!< ¥ (0xFF) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_JPN_2 ,               /*!< \ (0xC1) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_JPN_3 ,               /*!< 無変換 (VK_OEM_PA1) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_JPN_4 ,               /*!< 変換 (0xFF) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_JPN_5 ,               /*!< ひらがな/カタカナ (0xFF) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_1 ,               /*!< | (0xFF) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_2 ,               /*!< (VK_OEM_5) */
 			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_3,               /*!< (VK_OEM_102) */
-			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_4,             
-			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_5,         
-			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_6,               
-			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_7,               
-			ChromaSDK.Keyboard.RZKEY.RZKEY_INVALID              
+			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_4,               /*!< (0xC1) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_5,               /*!< (VK_OEM_PA1) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_6,               /*!< 한/영 (0xFF) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_KOR_7,               /*!< (0xFF) */
+			ChromaSDK.Keyboard.RZKEY.RZKEY_INVALID             /*!< Invalid keys. */
         };
 
         public static void Init()
@@ -184,6 +162,8 @@ namespace TypeMidi
                     Console.Error.WriteLine("Failed to initialize Chroma! {0}", RazerErrors.GetResultString(_mResult));
                     break;
             }
+
+            Update();
 
 
         }
