@@ -3,9 +3,12 @@ A Desktop Application to translate Midi Values to RGB Values to a RGB Keyboard f
 
 
 ## Installation
-This Program is a Portable program. You dont need to install itself, but you need the Program called *LoopMidi* to work with *LogiMidi*
+This Program is a Portable program. You dont need to install itself, but you need the Program called *LoopMidi* to work with *TypeMidi*
 
 You can get LoopMidi here: https://www.tobias-erichsen.de/software/loopmidi.html
+
+
+You have to set the Virtual Device you create in *LoopMidi* as the input in TypeMidi *BUT* when it comes to a DAW like Ableton you *HAVE* to desable everything at the Input of the Device and just activate the output, because it will crash otherwise. Now you can use it as a Midi Output device in a DAW like Ableton and the Values will be sent as a Input to TypeMidi so they can get displayed on your Keyboard.
 
 ## Palettes
 
