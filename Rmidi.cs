@@ -10,8 +10,6 @@ namespace TypeMidi
     class Rmidi
     {
 
-        private static string baseLayer = "Animations/Sprite1_Keyboard.chroma";
-
         private static int _mResult = 0;
 
         public static int GetInitResult()
@@ -187,9 +185,6 @@ namespace TypeMidi
                     break;
             }
 
-            ChromaAnimationAPI.CloseAnimationName(baseLayer);
-
-            ChromaAnimationAPI.FillColorAllFramesRGBName(baseLayer, 0, 0, 0);
 
         }
 
@@ -204,19 +199,40 @@ namespace TypeMidi
             rgb_led(p, rVelocity[v] * 6, gVelocity[v] * 6, bVelocity[v] * 6);
         }
 
+        public static int[] rValue = new int[128];
+        public static int[] gValue = new int[128];
+        public static int[] bValue = new int[128];
+
         public static void rgb_led(int p, int rVal, int gVal, int bVal)
         {
-            try
+            rValue[p] = rVal;
+            gValue[p] = gVal;
+            bValue[p] = bVal;
+
+            Update();
+        }
+
+        
+
+        public static void Update()
+        {
+            string curr = "Animations/Key.chroma";
+
+            ChromaAnimationAPI.CloseAnimationName(curr);
+
+            for(int i = 0; i < 127; i++)
             {
-                ChromaAnimationAPI.CloseAnimationName(baseLayer);
+                try
+                {
+                    ChromaAnimationAPI.SetKeyColorAllFramesRGBName(curr, (int)chromaKeys[i], rValue[i], gValue[i], bValue[i]);
+                }
+                catch
+                {
 
-                ChromaAnimationAPI.SetKeyColorAllFramesRGBName(baseLayer, (int)chromaKeys[p], rVal, gVal, bVal);
-
-                ChromaAnimationAPI.PlayAnimationName(baseLayer, true);
+                }
             }
-            catch { }
 
-            
+            ChromaAnimationAPI.PlayAnimationName(curr, true);
         }
 
 

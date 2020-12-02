@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChromaSDK;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,10 +9,8 @@ namespace TypeMidi
 {
     static class Program
     {
-        /// <summary>
-        /// Der Haupteinstiegspunkt für die Anwendung.
-        /// </summary>
-        [STAThread]
+
+        [STAThread] 
         static void Main()
         {
             
@@ -20,6 +19,7 @@ namespace TypeMidi
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
 
+            
             
 
         }

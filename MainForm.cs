@@ -48,10 +48,6 @@ namespace TypeMidi
             {
                 Rmidi.Init();
             }
-            else if (radioButton3.Checked)  // Corsair ICue SDK
-            {
-                MessageBox.Show("Corsair ICue SDK not available in this version.", "TypeMidi by Azor");
-            }
             else
             {
                 MessageBox.Show("Please select your Keyboard Type", "TypeMidi by Azor");
@@ -76,16 +72,23 @@ namespace TypeMidi
             {
                 Rmidi.palette_led((int)msg.Pitch, msg.Velocity);    
             }
-            else if(radioButton3.Checked)  // Corsair ICue SDK
-            {
-                MessageBox.Show("Corsair ICue SDK not available in this version.", "TypeMidi by Azor");
-            }
         }
 
         private void NoteOff(NoteOffMessage msg)
         {
-            Gmidi.palette_led((int)msg.Pitch, 0);
+            if (radioButton1.Checked) // Logitech SDK
+            {
+                Gmidi.palette_led((int)msg.Pitch, 0);
+            }
+            else if (radioButton2.Checked)  // Razer SDK
+            {
+                Rmidi.palette_led((int)msg.Pitch, 0);
+            }
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
