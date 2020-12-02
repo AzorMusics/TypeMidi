@@ -32,10 +32,13 @@ The only thing required is a Supported Keyboard (see below) which has controllab
 ## Q&A
 
 Q: Why did you start making TypeMidi?
+
 A: I started the Project TypeMidi with its predecessor with https://github.com/azormusics/logimidi. this was just a proof of concept that you actually could display Midi Values on a RGB Keyboard. 
 
 Q: Why do i need LoopMidi for it?
+
 A: LoopMidi gives Windows Users the ability to make virtual Midi Devices. In this case we need a virtual Midi Device to communicate between a DAW and TypeMidi.
 
 Q: Can you make it work on a Mac and Linux too?
+
 A: Yes, there will be a Mac version too but the Mac Version doesnt have a UI yet so its a Console Application, but i am not very if there will be something like LoopMidi that can create the virtual Midi Devices to use it properly.
